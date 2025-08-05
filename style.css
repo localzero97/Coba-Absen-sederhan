@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{font-family:'Poppins',sans-serif;background-color:#f0f2f5;display:flex;justify-content:center;align-items:center;height:100vh;margin:0;color:#333}
+.login-container{text-align:center}.logo{width:80px;margin-bottom:20px}.login-box{background-color:#fff;padding:40px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.1);width:350px}
+h2{margin-top:0;margin-bottom:10px;font-weight:600}p{margin-top:0;color:#666}.input-group{margin-bottom:20px;text-align:left}.input-group label{display:block;margin-bottom:8px;font-weight:500;color:#555}.input-group input,.input-group select{width:100%;padding:12px;border:1px solid #ccc;border-radius:8px;box-sizing:border-box;font-size:16px}.input-group input:focus,.input-group select:focus{outline:0;border-color:#007bff;box-shadow:0 0 0 2px rgba(0,123,255,.25)}
+button{width:100%;padding:12px;background-color:#007bff;color:#fff;border:none;border-radius:8px;cursor:pointer;font-size:16px;font-weight:600;transition:background-color .3s ease}button:hover{background-color:#0056b3}button:disabled{background-color:#a0c7ff;cursor:not-allowed}.status-message{margin-top:20px;font-size:14px;font-weight:500}.sukses{color:#28a745}.gagal{color:#dc3545}
+.dashboard-container{max-width:800px;margin:40px auto;padding:20px;width:100%}.header{display:flex;justify-content:space-between;align-items:center;padding:10px 20px;background-color:#fff;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.1)}.card{background-color:#fff;padding:30px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.1);margin-top:20px;text-align:center}
+.logout-btn{background-color:#dc3545;padding:8px 15px;color:#fff;border-radius:8px;text-decoration:none;font-weight:500;transition:background-color .3s}.logout-btn:hover{background-color:#c82333}.btn-absen{background-color:#28a745;color:#fff;padding:15px 30px;font-size:20px;border:none;border-radius:8px;cursor:pointer;transition:background-color .3s}.btn-absen:hover{background-color:#218838}.btn-absen:disabled{background-color:#83d494;cursor:not-allowed}.status-hadir{color:#28a745;font-size:1.2em;font-weight:600}
+.riwayat-table{width:100%;margin-top:20px;border-collapse:collapse}.riwayat-table th,.riwayat-table td{padding:12px;border:1px solid #ddd;text-align:left}.riwayat-table th{background-color:#f2f2f2}
+/* Tambahan untuk status di dasbor guru */
+.status-Hadir { color: #28a745; font-weight: bold; }
+.status-Sakit { color: #ffc107; font-weight: bold; }
+.status-Izin { color: #17a2b8; font-weight: bold; }
+.status-Alfa { color: #dc3545; font-weight: bold; }
