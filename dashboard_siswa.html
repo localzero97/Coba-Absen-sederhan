@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Dasbor Siswa</title><link rel="stylesheet" href="style.css"></head>
+<body>
+    <div class="dashboard-container">
+        <header class="header"><h2>Dasbor Siswa</h2><a href="#" id="logoutButton" class="logout-btn">Logout</a></header>
+        <main>
+            <div class="card"><p style="font-size: 1.2em;">Selamat datang, <strong id="nama-siswa">...</strong>!</p></div>
+            <div class="card" id="area-presensi"><h3>Presensi Hari Ini (<span id="tanggal-hari-ini"></span>)</h3><div id="loader" style="padding: 20px;">Memuat status...</div><div id="konten-presensi"></div></div>
+            <div class="card"><h3>Riwayat Presensi (7 Hari Terakhir)</h3><table class="riwayat-table"><thead><tr><th>Tanggal</th><th>Jam Masuk</th><th>Status</th></tr></thead><tbody id="riwayat-tbody"><tr><td colspan="3">Memuat riwayat...</td></tr></tbody></table></div>
+        </main>
+    </div>
+    <script src="dashboard_siswa.js"></script>
+</body>
+</html>
