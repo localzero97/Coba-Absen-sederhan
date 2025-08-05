@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasbor Guru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="header">
+            <h2>Dasbor Guru</h2>
+            <a href="#" id="logoutButton" class="logout-btn">Logout</a>
+        </header>
+
+        <main>
+            <div class="card">
+                <p style="font-size: 1.2em;">Selamat datang, <strong id="nama-guru">...</strong>!</p>
+                <p>Anda adalah wali kelas dari: <strong id="nama-kelas">...</strong></p>
+            </div>
+
+            <div class="card">
+                <h3>Rekap Presensi Hari Ini (<span id="tanggal-hari-ini"></span>)</h3>
+                <div id="ringkasan-presensi" style="margin-top: 15px;"></div>
+                <table class="riwayat-table">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Nama Siswa</th>
+                            <th>Status</th>
+                            <th>Jam Masuk</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rekap-tbody">
+                        <tr><td colspan="4">Memuat rekap presensi...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="dashboard_guru.js"></script>
+</body>
+</html>
