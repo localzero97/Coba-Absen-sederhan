@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistem Presensi Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_of_the_Ministry_of_Education_and_Culture_of_the_Republic_of_Indonesia.svg/2048px-Logo_of_the_Ministry_of_Education_and_Culture_of_the_Republic_of_Indonesia.svg.png" alt="Logo Sekolah" class="logo">
+            <h2>Sistem Presensi Digital</h2>
+            <p>Silakan masuk untuk melanjutkan</p>
+            <form id="loginForm">
+                <div class="input-group"><label for="peran">Masuk sebagai:</label><select id="peran" name="peran" required><option value="siswa">Siswa</option><option value="guru">Guru</option></select></div>
+                <div class="input-group"><label for="idPengguna">ID Pengguna (NISN/NIP):</label><input type="text" id="idPengguna" name="idPengguna" required></div>
+                <div class="input-group"><label for="password">Password:</label><input type="password" id="password" name="password" required></div>
+                <button type="submit" id="loginButton">Login</button>
+            </form>
+            <div id="pesanStatus" class="status-message"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
