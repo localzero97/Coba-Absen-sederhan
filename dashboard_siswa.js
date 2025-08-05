@@ -1,7 +1,7 @@
 // =======================================================================
 // PENTING: Ganti dengan URL WEB APP BARU ANDA
 // =======================================================================
-const GAS_API_URL = "URL_WEB_APP_ANDA_DISINI";
+const GAS_API_URL = "https://script.google.com/macros/s/AKfycbzMQ33BZhTFpJJVJSUA-i6-fh8vgR1Lw-PtrJE-WW0w3-auh8IFnT2MOc2KfHx8lzpa/exec";
 
 document.addEventListener("DOMContentLoaded", function() {
     const namaSiswaEl = document.getElementById("nama-siswa");
