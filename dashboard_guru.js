@@ -1,7 +1,7 @@
 // =======================================================================
 // PENTING: Ganti dengan URL WEB APP BARU ANDA
 // =======================================================================
-const GAS_API_URL = "https://script.google.com/macros/s/AKfycbwILA8md3Y7YiG5KK0-GMOnshEjXSuXBcFhPDeyFgUvdFq7hZAgmZDPxIlZX-VuJ7Qi/exec";
+const GAS_API_URL = "https://script.google.com/macros/s/AKfycbyySyLQ_oDr8UBeDUYNi35T8HnWS5MkEKmGpQHe0y_9fV1RsjqOUuk6siQDy8s7CMdn/exec";
 
 document.addEventListener("DOMContentLoaded", function() {
     const namaGuruEl = document.getElementById("nama-guru");
